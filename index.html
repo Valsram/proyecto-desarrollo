@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tecno Ave</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="shortcut icon" href="./assets/img/favicon.jpg" type="image/x-icon">
 </head>
@@ -33,19 +34,22 @@
     </header>
      
         <main class="foto1">
-            <img src="./assets/img/foto inicio.jpg" alt="">
+            <img data-aos="fade-right" src="./assets/img/foto inicio.jpg" alt="">
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis quasi odit veritatis, reprehenderit a accusamus?</p>
        
         </main>
         <aside class="foto2">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates aliquam blanditiis impedit assumenda doloribus minima.</p>
-            <img src="./assets/img/foto inicio.jpg" alt="">
+            <img data-aos="fade-left" src="./assets/img/foto inicio.jpg" alt="">
         </aside>
     
     
     <footer class="footer2">
             <h5>©2022 Ramosvalentin, todos los derechos reservados</h5>
      </footer>
-    
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+        AOS.init();
+      </script>
 </body>
 </html>
