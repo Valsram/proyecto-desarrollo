@@ -6,25 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tecno Ave</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="shortcut icon" href="./assets/img/favicon.jpg" type="image/x-icon">
 </head>
-<body class="container2">
+<body>
     
-    <nav class="navbar">
-        <ul>
-            <li><a href="./paginas/contacto.html">contactos</a></li>
-            <li><a href="./paginas/productos.html">productos</a>
-                <ul>
-                    <li>gallinas</li>
-                    <li>cerdos</li>
-                    <li>repuestos</li>
-                </ul>
-            </li>
-            <li><a href="./paginas/nosotros.html">nosotros</a></li>
-            <li><a href="./paginas/galeria.html">galeria</a></li>
-        </ul>
-    </nav>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./assets/img/favicon.jpg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./paginas/productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./paginas/galeria.html">galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./paginas/nosotros.html">nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./paginas/contacto.html">contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     <header class="header">
         <div class="portadaImg">
             <h1>Tecno Ave</h1>
@@ -32,10 +46,14 @@
         
 
     </header>
+       <div>
+        <p class="row justify-content-around my-3 center">Proveedores de equipamiento para el sector avícola, ya sea a pequeña y
+            mediana escala o a los grandes jugadores del sector</p>
+       </div>
      
         <main class="foto1">
             <img data-aos="fade-right" src="./assets/img/foto inicio.jpg" alt="">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis quasi odit veritatis, reprehenderit a accusamus?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis quasi odit veritatis,</p>
        
         </main>
         <aside class="foto2">
@@ -51,5 +69,6 @@
      <script>
         AOS.init();
       </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
